@@ -121,3 +121,46 @@ article li{
     1px 1px 0 #000; 
 }
 
+footer{
+    position: absolute;
+	background-color: black;
+	color:white;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+footer p{
+	font-size: 12px;
+	line-height: 200%;
+	text-align: center;
+    color: white;
+	
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer li{
+	font-size: 12px;
+	line-height: 200%;
+	list-style: none;
+	overflow: auto;
+	display: inline;
+	font-family: Verdana;
+	
+}
+
+footer a{
+	text-decoration: none;
+	padding-left: 2%;
+	margin-right: 1%;
+	color: rgb(250, 235, 215);
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+
