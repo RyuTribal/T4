@@ -1,13 +1,33 @@
 body{
     margin: 0;
     padding: 0;
+}
+
+#image{
     background-image: url("FullSizeRender.jpg");
     background-size: cover;
     min-height: 100%;
     position: fixed;
     overflow: auto;
     z-index: -100;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
 }
-
+article{
+    position: absolute;
+    top: 100%;
+    background-image: url("space.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	min-height: 100%;
+	color: white;
+	min-width: 100%;
+	max-width: 100%;
+}
 
 
