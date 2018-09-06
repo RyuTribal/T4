@@ -1,3 +1,13 @@
-#background-image{
-
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("FullSizeRender.jpg");
+    background-size: cover;
+    min-height: 100%;
+    position: fixed;
+    overflow: auto;
+    z-index: -100;
 }
+
+
+
